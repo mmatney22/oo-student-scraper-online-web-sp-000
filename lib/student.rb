@@ -10,7 +10,8 @@ class Student
   end
 
   def self.create_from_collection(students_array)
-
+#call Student.create_from_collection
+#with the return value of the Scraper.scrape_index_page method as the argument
   end
 
   def add_student_attributes(attributes_hash)
